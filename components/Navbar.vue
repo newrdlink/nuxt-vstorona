@@ -4,19 +4,25 @@
       <nuxt-link class="navbar-brand" to="#">NuxtJS</nuxt-link>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <nuxt-link class="nav-link" to="/"
-              >Home <span class="sr-only">(current)</span></nuxt-link
+          <li class="nav-item">
+            <nuxt-link exact active-class="active" class="nav-link" to="/"
+              >Home</nuxt-link
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/features">Features</nuxt-link>
+            <nuxt-link active-class="active" class="nav-link" to="/features"
+              >Features</nuxt-link
+            >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/users">Users</nuxt-link>
+            <nuxt-link active-class="active" class="nav-link" to="/users"
+              >Users</nuxt-link
+            >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/about">About</nuxt-link>
+            <nuxt-link active-class="active" class="nav-link" to="/about"
+              >About</nuxt-link
+            >
           </li>
           <li class="nav-item">
             <nuxt-link
