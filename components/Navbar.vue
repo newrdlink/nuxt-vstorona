@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <nuxt-link class="navbar-brand" to="#">NuxtJS</nuxt-link>
+      <nuxt-link class="navbar-brand" to="#">VS</nuxt-link>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
